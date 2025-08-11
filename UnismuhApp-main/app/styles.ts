@@ -1,0 +1,110 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#f0f4f7',
+  },
+  content: {
+    padding: 20,
+    alignItems: 'center',
+  },
+  logo: {
+    width: '100%',
+    height: 150,
+    marginBottom: 20,
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: '#333',
+    textAlign: 'center',
+    marginBottom: 8,
+  },
+  subtitle: {
+    fontSize: 16,
+    color: 'gray',
+    textAlign: 'center',
+    marginBottom: 20,
+  },
+  description: {
+    fontSize: 16,
+    textAlign: 'justify',
+    color: '#555',
+    lineHeight: 24,
+    marginBottom: 20,
+  },
+  infoBox: {
+    backgroundColor: '#fff',
+    borderRadius: 10,
+    padding: 15,
+    width: '100%',
+    marginBottom: 15,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
+  },
+  infoTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#1E90FF',
+    marginBottom: 10,
+  },
+  infoText: {
+    fontSize: 16,
+    color: '#333',
+    lineHeight: 22,
+  },
+  listItem: {
+    fontSize: 16,
+    color: '#333',
+    marginBottom: 10,
+    lineHeight: 22,
+  },
+  bold: {
+    fontWeight: 'bold',
+  },
+  profileImage: {
+    width: 150,
+    height: 150,
+    borderRadius: 75,
+    borderWidth: 4,
+    borderColor: '#1E90FF',
+    marginBottom: 20,
+  },
+  profileName: {
+    fontSize: 26,
+    fontWeight: 'bold',
+    color: '#333',
+    marginBottom: 20,
+  },
+  profileInfoContainer: {
+    width: '100%',
+    backgroundColor: '#fff',
+    borderRadius: 10,
+    padding: 10,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
+  },
+  infoRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    paddingVertical: 15,
+    borderBottomWidth: 1,
+    borderBottomColor: '#eee',
+  },
+  infoLabel: {
+    fontSize: 16,
+    color: 'gray',
+  },
+  infoValue: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#333',
+  },
+});
